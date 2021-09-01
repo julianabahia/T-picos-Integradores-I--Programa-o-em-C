@@ -13,17 +13,17 @@ int main()
 	if (preco > 150.00){
 	    desconto = preco*0.25;
 		total = preco - desconto;
-		printf("Valor total é: %f e o desconto foi de %f", total, desconto);
+		printf("Valor total é: %.2f e o desconto foi de %.2f", total, desconto);
 	}
 	else if (90.00 <= preco <= 150.00){
 	    desconto = preco*0.15;
 		total = preco - desconto;
-		printf("Valor total é: %f e o desconto foi de %f", total, desconto);
+		printf("Valor total é: %.2f e o desconto foi de %.2f", total, desconto);
 	}
 	else if (preco < 90.00){
 	    desconto = preco*0.10;
 		total = preco - desconto;
-		printf("Valor total é: %f e o desconto foi de %f", total, desconto);
+		printf("Valor total é: %.2f e o desconto foi de %.2f", total, desconto);
 	}
 
 	system("pause");
