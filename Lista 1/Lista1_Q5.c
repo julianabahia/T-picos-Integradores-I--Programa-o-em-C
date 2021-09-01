@@ -23,20 +23,19 @@ int main()
 	else{
 		if (tipo_racao == 1){
 			total = (preco_flex*qtd_racao) - ((preco_flex*qtd_racao)*0.10);
-			printf("O preço total é %f e o desconto foi de 10/100", total);
+			printf("O preço total é %.2f e o desconto foi de 10/100", total);
 		}
 		else if (tipo_racao == 2){
 			total = (preco_premium*qtd_racao) - ((preco_premium*qtd_racao)*0.20);
-			printf("O preço total é %f e o desconto foi de 20/100", total);
+			printf("O preço total é %.2f e o desconto foi de 20/100", total);
 		}
 		else if (tipo_racao == 3){
 			total = (preco_gold*qtd_racao) - ((preco_gold*qtd_racao)*0.30);
-			printf("O preço total é %f e o desconto foi de 30/100", total);
+			printf("O preço total é %.2f e o desconto foi de 30/100", total);
 		}
 
 	}
 	
-	//system("PAUSE");
 	system("PAUSE");
 	return 0;
 }
