@@ -20,7 +20,7 @@ int main()
 	else{
 	    vendas_totais = vendas*10.00;
 		total = ((vendas_totais*0.03) + vendas_totais + salario);
-		printf("O salário total é: %f", total);
+		printf("O salário total é: %.2f", total);
 
 	}
 	
