@@ -5,7 +5,7 @@
 
 int main()
 {
-    float ricardo, conta, div_conta;
+    float ricardo, conta;
     int joao, rodrigo;
 	printf("Qual o valor da conta? \n");
 	scanf("%f", &conta);
