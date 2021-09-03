@@ -1,3 +1,5 @@
+//////Nome: Juliana Bahia || Matricula: 04071404 || Turma: ALC 0790104NMA
+
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -12,13 +14,14 @@ int main()
 		printf("ERRO! Conta negativa ou igual a	0!");
 	}
 	else{
-			joao = valor/3;
-			rodrigo = valor/3;
-			ricardo = valor - (joao + rodrigo);
+			joao = conta/3;
+			rodrigo = conta/3;
+			ricardo = conta - (joao + rodrigo);
+			conta -= ricardo;
 			
-			printf("João pagará: R$ %d", joao);
-			printf("Ricardo pagará: R$ %d", ricardo);
-			printf("Rodrigo pagará: R$ %.2f", rodrigo);			
+			printf("João pagará: R$ %d \n", joao);
+			printf("Rodrigo pagará: R$ %d \n", rodrigo);
+			printf("Ricardo pagará: R$ %.2f \n", ricardo);			
 	}
 	
 	system("pause");
